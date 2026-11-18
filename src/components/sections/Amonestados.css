@@ -1,0 +1,15 @@
+.amo { background: var(--white); border-radius: var(--radius); border: 1px solid var(--line); overflow-x: auto; }
+.amo__table { width: 100%; border-collapse: collapse; }
+.amo__table th { padding: 9px 10px; text-align: center; font: 600 0.85rem var(--font-body); background: var(--ink); color: var(--white); }
+.amo__table td { padding: 10px; text-align: center; border-bottom: 1px solid var(--line); }
+.amo__table tr:last-child td { border-bottom: 0; }
+.amo__who { text-align: left !important; }
+.amo__who small { display: block; color: var(--muted); font-size: 0.82rem; }
+.amo__chip { display: inline-grid; place-items: center; min-width: 30px; height: 36px; padding-inline: 6px; border-radius: 4px; font: 700 1.1rem var(--font-display); }
+.amo__chip--y { background: var(--yellow-card); color: var(--ink); }
+.amo__chip--r { background: var(--red); color: var(--white); }
+.amo__gap { height: 24px; }
+.susp { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.susp__item { display: grid; gap: 2px; padding: 12px 14px; background: var(--white); border: 1px solid var(--line); border-left: 4px solid var(--red); border-radius: var(--radius); }
+.susp__item small { color: var(--muted); }
+.susp__item span { font-size: 0.92rem; }

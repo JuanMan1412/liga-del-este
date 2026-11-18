@@ -1,0 +1,17 @@
+.pos { background: var(--white); border-radius: var(--radius); overflow-x: auto; border: 1px solid var(--line); }
+.pos__table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.pos__table th { padding: 9px 6px; text-align: center; font: 600 0.85rem var(--font-body); background: var(--blue); color: var(--white); }
+.pos__table td { padding: 10px 6px; text-align: center; border-bottom: 1px solid var(--line); }
+.pos__table tr:last-child td { border-bottom: 0; }
+.pos__team { text-align: left !important; padding-left: 12px !important; font-weight: 600; }
+.pos__pts { font: 700 1.1rem var(--font-display); }
+.pos__lider td:first-child { box-shadow: inset 4px 0 0 var(--gold); font-weight: 700; }
+.pos__group + .pos__group { margin-top: 16px; }
+.pos__zona { font-size: 1.15rem; margin-bottom: 6px; color: var(--blue); }
+.pos__extra { display: none; }
+@media (min-width: 640px) { .pos__extra { display: table-cell; } }
+@media (min-width: 768px) {
+  .pos__table { font-size: 1rem; }
+  .pos__table td { padding: 12px 8px; }
+  .pos__table th { padding: 11px 8px; }
+}

@@ -1,0 +1,4 @@
+.matches { list-style: none; margin: 10px 0 0; padding: 0; border: 1px solid var(--line); border-radius: var(--radius); }
+.fechas { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; }
+.fechas__btn { flex: 0 0 auto; min-width: 42px; padding: 7px 12px; border-radius: 8px; background: var(--white); border: 1.5px solid var(--line); color: var(--ink); font: 700 1.05rem var(--font-display); }
+.fechas__btn[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: var(--white); }

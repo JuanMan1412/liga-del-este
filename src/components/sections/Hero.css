@@ -1,0 +1,9 @@
+.hero { position: relative; background: var(--white); }
+.hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 8px; background: var(--arcoiris); }
+.hero__inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: clamp(20px, 4vw, 48px) clamp(28px, 4.5vw, 56px); }
+.hero__copy { flex: 1; min-width: 0; }
+.hero__season { font-weight: 600; color: var(--purple); margin-bottom: 6px; }
+.hero__title { font-size: clamp(2.2rem, 6vw, 4.4rem); color: var(--ink); }
+.hero__text { margin-top: 12px; max-width: 46ch; color: var(--muted); line-height: 1.5; font-size: clamp(0.95rem, 1.6vw, 1.15rem); }
+/* el logo va a la derecha y se achica en el celular */
+.hero__logo { flex: 0 0 auto; display: block; height: clamp(120px, 30vw, 300px); width: auto; }

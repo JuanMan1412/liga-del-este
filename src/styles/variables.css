@@ -1,0 +1,30 @@
+:root {
+  /* Colores tomados del logo SLDE */
+  --purple: #8B2A8C;
+  --red: #EA2127;
+  --orange: #F58B25;
+  --yellow: #F5EB35;
+  --green: #169B52;
+  --blue-light: #1788CC;
+  --blue: #05549C;
+
+  --ink: #15121C;        /* negro del logo: textos y fondos oscuros */
+  --ink-soft: #2A2540;
+  --paper: #F4F5FA;
+  --white: #FFFFFF;
+  --line: #E0E3EE;
+  --muted: #5B6385;
+  --gold: #F58B25;       /* destaque del líder de la tabla */
+  --yellow-card: #F5EB35;
+
+  /* Barra de 7 colores, como el anillo del logo */
+  --arcoiris: linear-gradient(90deg,
+    var(--purple) 0 14.28%, var(--red) 0 28.57%, var(--orange) 0 42.85%, var(--yellow) 0 57.14%,
+    var(--green) 0 71.42%, var(--blue-light) 0 85.71%, var(--blue) 0 100%);
+
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "Barlow", system-ui, sans-serif;
+
+  --radius: 10px;
+  --container: 1180px;
+}

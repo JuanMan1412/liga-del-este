@@ -1,0 +1,5 @@
+.cats { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+.cats__btn { flex: 0 0 auto; padding: 8px 20px; border-radius: 999px; background: var(--white); border: 1.5px solid var(--line); color: var(--ink); font: 700 1.1rem var(--font-display); }
+.cats__btn:hover { border-color: var(--ink-soft); }
+.cats__btn[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: var(--white); }
+@media (min-width: 768px) { .cats { flex-wrap: wrap; overflow: visible; } }

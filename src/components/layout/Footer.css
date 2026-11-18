@@ -1,0 +1,8 @@
+.footer { margin-top: 48px; padding: 28px 0; background: var(--ink); color: var(--white); }
+.footer__inner { display: grid; gap: 8px; }
+.footer__name { font: 700 1.2rem var(--font-display); }
+.footer__legal { font-size: 0.85rem; color: #AAB4D4; }
+.footer__legal a { color: var(--white); }
+@media (min-width: 768px) { .footer__inner { grid-template-columns: 1fr auto; align-items: center; } }
+.footer { position: relative; }
+.footer::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 6px; background: var(--arcoiris); }

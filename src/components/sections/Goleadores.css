@@ -1,0 +1,7 @@
+.gol { list-style: none; margin: 0; padding: 0; background: var(--white); border-radius: var(--radius); border: 1px solid var(--line); }
+.gol__row { display: grid; grid-template-columns: 28px 1fr auto; align-items: center; gap: 10px; padding: 11px 14px; border-bottom: 1px solid var(--line); }
+.gol__row:last-child { border-bottom: 0; }
+.gol__pos { font: 700 1.2rem var(--font-display); color: var(--muted); }
+.gol__who { display: flex; flex-direction: column; }
+.gol__who small { color: var(--muted); font-size: 0.82rem; }
+.gol__n { font: 700 1.7rem var(--font-display); color: var(--blue); }
