@@ -18,11 +18,11 @@ export const CAMPEONATO = {
 
   // Las categorías aparecen en este orden. "nombre" es el que se ve en la web.
   categorias: [
-    { nombre: "Libre", url: "" },
-    { nombre: "+30", url: "" },
-    { nombre: "+40", url: "" },
-    { nombre: "+45", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgVyx4BprPypZAUCZUt4KQDo5QIRZtnjDnRvpUT7AZReOLx2R8A-1XegTdE5sw72hXNhQYD72gkz-a/pub?gid=769368758&single=true&output=csv" },
-    { nombre: "Femenino", url: "" },
+    { nombre: "Libre", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgVyx4BprPypZAUCZUt4KQDo5QIRZtnjDnRvpUT7AZReOLx2R8A-1XegTdE5sw72hXNhQYD72gkz-a/pub?gid=2099576385&single=true&output=csv" },
+    { nombre: "+30", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgVyx4BprPypZAUCZUt4KQDo5QIRZtnjDnRvpUT7AZReOLx2R8A-1XegTdE5sw72hXNhQYD72gkz-a/pub?gid=1243213530&single=true&output=csv" },
+    { nombre: "+40", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgVyx4BprPypZAUCZUt4KQDo5QIRZtnjDnRvpUT7AZReOLx2R8A-1XegTdE5sw72hXNhQYD72gkz-a/pub?gid=2137804373&single=true&output=csv" },
+    { nombre: "+45", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQIJyL8ClsdL-igY_kRZ2QmOnDtwLCZwwg7-RIu_SkyUMgHOh5UD6V5-3WiSZaJuAZG5MEi7Y8YwI5U/pub?gid=1045632645&single=true&output=csv" },
+    { nombre: "Femenino", url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgVyx4BprPypZAUCZUt4KQDo5QIRZtnjDnRvpUT7AZReOLx2R8A-1XegTdE5sw72hXNhQYD72gkz-a/pub?gid=612084667&single=true&output=csv" },
   ],
 
   sponsorsUrl: "", // opcional: pestaña "sponsors" publicada como CSV
