@@ -9,12 +9,12 @@ export const CAMPEONATO = {
   nombre: "Liga del Este",
   lema: "Fútbol amateur de la zona este",
   temporada: "2026",
-  contacto: "5493810000000", // WhatsApp del organizador (con código de país, sin + ni espacios)
+  contacto: "5493813045005", // WhatsApp del organizador (con código de país, sin + ni espacios)
   logo: "/logo.jpg",
   logoIcono: "/logo-icono.png",
   
   // Quién desarrolla el sitio (aparece en el pie de página)
-  desarrollador: { nombre: "Tu nombre o marca", whatsapp: "5493810000000" },
+  desarrollador: { nombre: "Juan Manuel", whatsapp: "5493816425048" },
 
   // Las categorías aparecen en este orden. "nombre" es el que se ve en la web.
   categorias: [
